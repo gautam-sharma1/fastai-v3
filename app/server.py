@@ -21,6 +21,7 @@ export_file_name = 'stage-1.pkl'
 # ,"Keep left","Roundabout mandatory","End of no passing","End of no passing by vechiles over 3.5 metric tons"]
 classes =  k = [str(i) for i in range(43) ]
 path = Path(__file__).parent
+print(path)
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
