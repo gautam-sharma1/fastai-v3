@@ -9,7 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1NRRlNEIU2_n-2B4uwbmjG6XuvQmE0ogW'
+export_file_url = ''
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1NRRlNEIU2_n-2B4uwbmjG6XuvQmE0ogW'
 export_file_name = 'stage-1.pkl'
 
 # classes = ["Speed limit (20km/h)","Speed limit (30km/h)", "Speed limit (50km/h)", "Speed limit (60km/h)","Speed limit (70km/h)","Speed limit (80km/h)",
